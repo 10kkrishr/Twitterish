@@ -1,0 +1,12 @@
+com/twitterish/myapp/repository/FollowerRepository.class
+com/twitterish/myapp/model/Session.class
+com/twitterish/myapp/config/DBConfig.class
+com/twitterish/myapp/TwitterApplication.class
+com/twitterish/myapp/repository/TweetRepository.class
+com/twitterish/myapp/repository/SessionRepository.class
+com/twitterish/myapp/config/SQLiteDialect.class
+com/twitterish/myapp/model/Tweet.class
+com/twitterish/myapp/controller/FeedController.class
+com/twitterish/myapp/model/Followers.class
+com/twitterish/myapp/repository/EmployeeRepository.class
+com/twitterish/myapp/model/Employee.class
