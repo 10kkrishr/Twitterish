@@ -1,0 +1,42 @@
+[
+    {
+        "employee": {
+            "username": "Testuser1",
+            "firstName": "First1",
+            "lastName": "Last1"
+        },
+        "id": 75550,
+        "timestamp": "1534365162942.0",
+        "content": "This is tweet no 5"
+    },
+    {
+        "employee": {
+            "username": "Testuser1",
+            "firstName": "First1",
+            "lastName": "Last1"
+        },
+        "id": 74137,
+        "timestamp": "1534365162824.0",
+        "content": "This is tweet no 4"
+    },
+    {
+        "employee": {
+            "username": "Testuser1",
+            "firstName": "First1",
+            "lastName": "Last1"
+        },
+        "id": 20473,
+        "timestamp": "1534365157605.0",
+        "content": "This is tweet no 3"
+    },
+    {
+        "employee": {
+            "username": "Testuser1",
+            "firstName": "First1",
+            "lastName": "Last1"
+        },
+        "id": 28561,
+        "timestamp": "1534365156108.0",
+        "content": "This is tweet no 2"
+    }
+]

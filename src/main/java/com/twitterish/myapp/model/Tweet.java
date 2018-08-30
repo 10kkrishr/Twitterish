@@ -12,38 +12,45 @@ import javax.persistence.Table;
 @Table(name = "Tweets")
 public class Tweet {
 
-    private String Content;
-    private Integer Id;
-    private String Timestamp;
-    private Employee employee;
-    
-    @OneToOne
-    @JoinColumn(name = "Username")
+	private String Content;
+	private Integer Id;
+	private String Timestamp;
+	private Employee employee;
+
+	@OneToOne
+	@JoinColumn(name = "Username")
 	public Employee getEmployee() {
 		return employee;
 	}
+
 	public void setEmployee(Employee employee) {
 		this.employee = employee;
 	}
+
 	public String getContent() {
 		return Content;
 	}
+
 	public void setContent(String content) {
 		Content = content;
 	}
+
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Integer getId() {
 		return Id;
 	}
+
 	public void setId(Integer id) {
 		Id = id;
 	}
+
 	public String getTimestamp() {
 		return Timestamp;
 	}
+
 	public void setTimestamp(String timestamp) {
 		Timestamp = timestamp;
-	}   
-    
+	}
+
 }

@@ -11,28 +11,33 @@ import javax.persistence.Table;
 public class Followers {
 
 	private String Username;
-    private String Follower;
-    private Integer Id;
+	private String Follower;
+	private Integer Id;
 
 	public String getUsername() {
 		return Username;
 	}
+
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Integer getId() {
 		return Id;
 	}
+
 	public void setId(Integer id) {
 		Id = id;
 	}
+
 	public void setUsername(String username) {
-		Username = username;
+		this.Username = username;
 	}
+
 	public String getFollower() {
 		return Follower;
 	}
+
 	public void setFollower(String follower) {
-		Follower = follower;
+		this.Follower = follower;
 	}
 
 }

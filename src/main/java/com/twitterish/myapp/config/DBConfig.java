@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 public class DBConfig {
 	@Bean
 	public DataSource dataSource() {
-	        DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
-	        dataSourceBuilder.driverClassName("org.sqlite.JDBC");
-	        dataSourceBuilder.url("jdbc:sqlite:TweetDb.db");
-	        return dataSourceBuilder.build();   
+		DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
+		dataSourceBuilder.driverClassName("org.sqlite.JDBC");
+		dataSourceBuilder.url("jdbc:sqlite:TweetDb.db");
+		return dataSourceBuilder.build();
 	}
 }

@@ -15,15 +15,15 @@ public class Session {
 		return Username;
 	}
 	public void setUsername(String username) {
-		Username = username;
+		this.Username = username;
 	}
 	@Id
 	@Column(name = "session_token")
 	public String getSessionToken() {
 		return SessionToken;
 	}
-	public void setSessionToken(String SessionToken) {
-		SessionToken = SessionToken;
+	public void setSessionToken(String sessionToken) {
+		this.SessionToken = sessionToken;
 	}
  
 }
